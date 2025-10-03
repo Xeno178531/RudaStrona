@@ -4,7 +4,6 @@ Ten poradnik zawiera wszystkie komendy Git, których potrzebujesz do pracy nad p
 Zakładamy, że Git jest zainstalowany i repo sklonowane.
 
 ---
-
 ```bash
 # 1️⃣ Otwórz terminal w VS Code i przejdź do folderu projektu
 cd RudaStrona
