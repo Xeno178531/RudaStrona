@@ -54,3 +54,4 @@ git push origin main
 # - Commituj często i opisowo
 # - Zawsze pull przed rozpoczęciem pracy
 # - Nigdy nie pracuj bezpośrednio na main
+```
