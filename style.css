@@ -1,0 +1,15 @@
+#title
+{
+    color: orange;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+    font-size: 2em;
+    text-shadow: 2px 2px 4px #000000;
+    border: #000000;
+    padding: 10px;
+    border-radius: 10px;
+    background: linear-gradient(90deg, orange, red);
+}
+
+
