@@ -1,25 +1,47 @@
 <!DOCTYPE html>
 <html lang="pl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ruda Strona</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <img src="files/images/rudy.jpg" alt="Ruda Ikona" id="RudaIkona">
-        <h1 id="title">Witamy na Rudej Stronie!</h1>
-    </header>
-    <main>
-        <p>To jest przykładowa strona z rudym motywem.</p>
-        <p>Dodaj tutaj więcej treści według potrzeb.</p>
-    </main>
-    <button id="goTopBtn" style="position:fixed;bottom:80px;right:30px;z-index:1000;">Do góry</button>
-    <footer>
-        <p>&copy; 2025 Ruda Strona</p>
-        <p>Kwiatek Developers</p>
-    </footer>
-    <script src="script.js"></script>
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Ruda Strona</title>
+        <link 
+            rel="stylesheet" 
+            href="style.css" />
+        <link 
+            rel="preconnect" 
+            href="https://fonts.googleapis.com" />
+        <link 
+            rel="preconnect" 
+            href="https://fonts.gstatic.com"   
+            crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap"
+            rel="stylesheet"/>
+    </head>
+
+    <body>
+        <script src="script.js"></script>
+        
+        <header>
+            <img src="files/images/rudy.jpg" alt="Ruda Ikona" id="RudaIkona" />
+            <h1 id="title">Witamy na Stronie Głównej !</h1>
+        </header>
+        <main>
+            <p>To jest przykładowa strona z rudym motywem.</p>
+            <p>Dodaj tutaj więcej treści według potrzeb.</p>
+            <aside class = "sidebar" >
+                <h2>Menu</h2>
+                <ul>
+                    <li><a href="#">Strona Główna</a></li>
+                    <li><a href="#">O Nas</a></li>
+                    <li><a href="#">Usługi</a></li>
+                    <li><a href="#">Kontakt</a></li>
+                </ul>
+            </aside>
+        </main>
+        <footer>
+            <p>&copy; 2025 Ruda Strona</p>
+            <p>Kwiatek Developers</p>
+        </footer>
+    </body>
 </html>
