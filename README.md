@@ -5,7 +5,7 @@ Zakładamy, że Git jest zainstalowany, a repozytorium zostało już sklonowane.
 
 ---
 
-## 1️⃣ Otwórz terminal w VS Code i przejdź do folderu projektu
+gi## 1️⃣ Otwórz terminal w VS Code i przejdź do folderu projektu
 
 ```bash
 cd RudaStrona
